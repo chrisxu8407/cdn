@@ -1,0 +1,213 @@
+.ais-search-box {
+    width: 100%;
+    max-width: 100%!important
+}
+
+.search-input {
+    border-radius: 2px
+}
+
+.instantsearch-input {
+    padding-bottom: 7px
+}
+
+.ais-stats {
+    display: block;
+    float: left;
+    margin-top: -26px!important
+}
+
+@media all and (max-width:900px) {
+    .ais-stats {
+        margin-top: -25px!important
+    }
+}
+
+.ais-search-box--powered-by {
+    font-family: -apple-system, BlinkMacSystemFont, segoe ui, Roboto, noto sans, Ubuntu, Cantarell, helvetica neue, sans-serif, apple color emoji, segoe ui emoji, segoe ui symbol, noto color emoji;
+    font-size: 15px
+}
+
+.ais-search-box--magnifier,
+.ais-search-box--reset {
+    display: block;
+    top: 35%!important;
+    bottom: auto;
+    right: 10px!important;
+    width: 14px
+}
+
+.hit-content {
+    display: block;
+    border-top: 2px solid #b4a2e71a;
+    padding: 30px 5px;
+    margin: 0;
+    font-size: 13px;
+    font-weight: 300;
+    width: 100%;
+    position: relative;
+    color: #757575;
+    transition: .3s ease;
+    word-wrap: break-word
+}
+
+.hit-content:hover {
+    border-top: 2px solid #208bc433;
+    box-shadow: 0 10px 6px -6px #208bc433
+}
+
+.hit-content:hover .hit-tag {
+    color: #1b69b6;
+    border-color: #4fabe133
+}
+
+@media all and (max-width:900px) {
+    .hit-content {
+        padding: 25px 5px
+    }
+}
+
+.hit-content .lvl0 {
+    color: #333
+}
+
+.hit-content .lvl1 {
+    font-size: 18px!important
+}
+
+.hit-content .lvl2 {
+    font-size: 14px;
+    color: #868686
+}
+
+.hit-content .hit-name {
+    font-weight: 400;
+    margin-top: 0
+}
+
+.hit-content em {
+    font-style: normal;
+    background-color: #4fabe133
+}
+
+.hit-content p {
+    font-size: 13px
+}
+
+.hit-content .hit-description {
+    margin: 1px 0 5px
+}
+
+.hit-content .hit-tag {
+    display: block;
+    position: absolute;
+    padding: 3px;
+    border: 1px solid #b4a2e71a;
+    border-top: 0;
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+    right: 0;
+    top: 0;
+    width: 70px;
+    height: 25px;
+    font-size: 11px;
+    font-weight: 500;
+    text-align: center;
+    text-transform: uppercase;
+    color: #999
+}
+
+.hit-content .hit-text {
+    font-size: inherit;
+    color: #1b69b6
+}
+
+@media all and (max-width:900px) {
+    .hit-content .hit-tag {
+        width: 60px;
+        height: 23px;
+        font-size: 10px
+    }
+    .hit-content .lvl0 {
+        padding-top: 5px
+    }
+}
+
+#hits {
+    border-top: 0;
+    margin: 4px 0;
+    padding: 10px 0
+}
+
+#hits>h1,
+#hits h2,
+#hits h3,
+#hits h4,
+#hits h5,
+#hits h6 {
+    border: 0
+}
+
+#refinement-list {
+    margin-top: 15px
+}
+
+.main.class {
+    padding-top: 10px
+}
+
+@media(max-width:900px) {
+    .main.class {
+        padding-top: 20px
+    }
+}
+
+.algolia-docsearch-suggestion--highlight {
+    background-color: #4fabe133
+}
+
+.ais-infinite-hits--showmore {
+    display: block;
+    margin: 10px auto auto
+}
+
+.ais-infinite-hits--showmore button {
+    padding: 20px 10px;
+    cursor: pointer;
+    width: 100%;
+    background-color: #fff;
+    border-color: #4fabe133;
+    border-right: 0;
+    border-left: 0
+}
+
+.ais-infinite-hits--showmore button:hover {
+    background-color: #4fabe133
+}
+
+.ais-infinite-hits--showmore button:focus {
+    outline: none
+}
+
+.stats {
+    display: block;
+    text-align: right;
+    font-size: 11px;
+    color: #1f1f1f
+}
+
+@media all and (max-width:900px) {
+    .stats {
+        font-size: 10px
+    }
+}
+
+.ais-refinement-list--item {
+    display: inline-block;
+    padding-right: 10px
+}
+
+.ais-refinement-list--label {
+    text-transform: uppercase;
+    color: #1b69b6
+}
