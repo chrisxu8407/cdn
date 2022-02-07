@@ -3983,7 +3983,7 @@ input[type="search"]:focus {
   }
 @media (min-width: 768px) {
 .footer__col--social-links {
-    text-align: right;
+    text-align: center;
     vertical-align: middle
 }
   }
